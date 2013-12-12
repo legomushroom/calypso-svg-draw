@@ -1,0 +1,25 @@
+!!!5
+html
+	head
+		meta(charset='UTF-8')
+		title Calypso draw
+		link(rel="stylesheet", type="text/css", href="css/main.css")
+	body
+		.main-l#js-main-l
+			.rect(style="width:6em; height:4em; top: 2em; left: 4em; position: absolute")
+
+			svg(width="4em", height="12em", style="position: absolute; top:4em; left:10em;")
+				path(d="M0 0 L64 0 L64 192", stroke="black", stroke-width="5", fill="none")
+
+
+
+		script(type="text/javascript", src="js/lib/jquery-2.0.1.js")
+		script(type="text/javascript", src="js/lib/md5.js")
+		script(type="text/javascript", src="js/jquery.hammer.min.js")
+		script(type="text/javascript", src="js/tween.min.js")
+		script(type="text/javascript", src="js/dat.gui.min.js")
+		script(type="text/javascript", src="js/helpers.js")
+		script(type="text/javascript", src="js/paper.js")
+		script(type="text/paperscript", src="js/paths.js", canvas="paths-place")
+
+		//- script(type="text/javascript", src="js/main.js")
